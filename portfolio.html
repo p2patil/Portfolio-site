@@ -1,0 +1,163 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:200,100,300' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="bootstrap/js/jquery-1.12.0.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <!-- This section contains the header and the logo of the portfolio-->
+    <div class="container">
+        <div class="row header">
+            <div class="col-md-6">
+                <img class="logo" src="./img/udacity-logo.jpg" class="udacity-logo" alt="udacity-logo">
+            </div>
+            <div class="col-md-6 text-right text-uppercase">
+                <h1 class="title-main">Poonam Patil</h1>
+                <h4>Front-End-Ninja</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <hr>
+            </div>
+        </div>
+        <div class="row work">  
+            <div class="col-md-12">
+                <picture>
+                    <source srcset="images/html_jpg-large_x2.jpg" media="(min-width: 800px)" >
+                    <source srcset="images/html_jpg-large_x1.jpg" media="(min-width: 640px)" >
+                    <source srcset="images/html_jpg-small.jpg" >
+                <img class="img-responsive mid-img" src="images/html_jpg-small.jpg" alt="html code image">
+            </picture>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="title-faded">Featured Work</h2>
+            </div>
+        </div>
+        <div class="row text-center apps">
+            <div class="col-md-4 learning">
+                <picture>
+                    <source srcset="images/ninja1-large_x2.png" media="(min-width: 800px)" >
+                    <source srcset="images/ninja1-large_x1.png" media="(min-width: 640px)" >
+                    <source srcset="images/ninja1-small.png" >
+                <img class="img-responsive" src="images/ninja1-small.png" alt="Learning in action image" data-toggle="modal" data-target="#learning">
+            </picture>
+                <h3 class="text-uppercase">Learning in action</h3>
+                <p>https:github.com/udacity/learn</p>
+            </div>
+            <div class="col-md-4 project">
+                <picture>
+                    <source srcset="images/project-large_x2.jpeg" media="(min-width: 800px)" >
+                    <source srcset="images/project-large_x1.jpeg" media="(min-width: 640px)" >
+                    <source srcset="imagesproject-small.jpeg" >
+                <img class="img-responsive" src="images/project-small.jpeg" alt="project-img" data-toggle="modal" data-target="#project">
+            </picture>
+                <h3 class="text-uppercase">Project</h3>
+                <p>https:github.com/udacity/project</p>
+            </div>
+            <div class="col-md-4 app">
+                 <picture>
+                    <source srcset="images/app-large_x2.jpeg" media="(min-width: 800px)" >
+                    <source srcset="images/app-large_x1.jpeg" media="(min-width: 640px)" >
+                    <source srcset="images/app-small.jpeg" >
+                <img class="img-responsive" src="images/app-small.jpeg" alt="app-img" data-toggle="modal" data-target="#app">
+            </picture>
+                <h3 class="text-uppercase">Apps</h3>
+                <p>https:github.com/udacity/apps</p>
+            </div>
+        </div>
+        <div class="row footer">
+            <div class="footer-col">
+                <h3 class="footer-title">Let us connect </h3>
+                <div class="social">
+                    <a href="www.twitter.com">
+                        <img title="Twitter" alt="Twitter" src="https://socialmediawidgets.files.wordpress.com/2014/03/01_twitter1.png" width="50" height="50" />
+                    </a>
+                    <a href="www.linkedin.com">
+                        <img title="LinkedIn" alt="LinkedIn" src="https://socialmediawidgets.files.wordpress.com/2014/03/07_linkedin1.png" width="50" height="50" />
+                    </a>
+                    <a href="www.facebook.com">
+                        <img title="Facebook" alt="Facebook" src="https://socialmediawidgets.files.wordpress.com/2014/03/02_facebook1.png" width="50" height="50" />
+                    </a>
+                    <a href="www.pinterest.com">
+                        <img title="Pinterest" alt="Pinterest" src="https://socialmediawidgets.files.wordpress.com/2014/03/13_pinterest1.png" width="50" height="50" />
+                        </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="learning" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Learning in Action</h4>
+                </div>
+                <div class="modal-body">
+                    <picture>
+                    <source srcset="images/ninja1-large_x2.png" media="(min-width: 800px)" >
+                    <source srcset="images/ninja1-large_x1.png" media="(min-width: 640px)" >
+                    <source srcset="images/ninja1-small.png" >
+                    <img class="img-responsive" src="images/ninja1-small.png">
+                    </picture> I am on the path to become a front end ninja. Taking courses hosted by udacity.com.The courses are very helpful. Currently enrolled in Front end web developer nano degree.Looking forward to learn more with this project.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="project" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Project</h4>
+                </div>
+                <div class="modal-body">
+                    <picture>
+                    <source srcset="images/project-large_x2.jpeg" media="(min-width: 800px)" >
+                    <source srcset="images/project-large_x1.jpeg" media="(min-width: 640px)" >
+                    <source srcset="images/project-small.jpeg" >
+                    <img class="img-responsive" src="images/project-small.jpeg">
+                    </picture> This was my first project in which I made as part of the udacity course "Intro to programming. I learned a lot about HTML and CSS and programming concepts. Very good to brush up the programming concepts.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="app" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Apps</h4>
+                </div>
+                <div class="modal-body">
+                    <picture>
+                    <source srcset="images/app-large_x2.jpeg" media="(min-width: 800px)" >
+                    <source srcset="images/app-large_x1.jpeg" media="(min-width: 640px)" >
+                    <source srcset="images/app-small.jpeg" >
+                    <img class="img-responsive" src="images/app-small.jpeg">
+                </picture>Would like to build some apps soon.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
